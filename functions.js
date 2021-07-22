@@ -22,12 +22,7 @@ const object = {
  }
 
 secretAdmirer = (name) => {
-  if (name === 'tj') {
-  return "hello my love"
-  }
-  else {
-    return `hello ${name}`
-  }
+  return name == "tj" ? "hello my love": `hello ${name}`
 }
 
  addUp = (number1, number2) => {
